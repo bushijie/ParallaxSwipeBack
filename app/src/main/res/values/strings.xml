@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ParallaxSwipeBack</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">GitHub</string>
+    <string name="next">StartParallaxSwipeBackActivity</string>
+</resources>
