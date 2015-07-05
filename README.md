@@ -24,12 +24,12 @@ Usage
     }`   
 
 Very little code, are all here
-[https://github.com/bushijie/ParallaxSwipeBack](https://github.com/bushijie/ParallaxSwipeBack)
+[ParallaxSwipeBackActivity](https://github.com/bushijie/ParallaxSwipeBack/blob/master/app/src/main/java/com/bureak/parallaxswipeback/ParallaxSwipeBackActivity.java)
 
 
 代码非常少，都在这里
 
-[https://github.com/bushijie/ParallaxSwipeBack](https://github.com/bushijie/ParallaxSwipeBack](https://github.com/bushijie/ParallaxSwipeBack](https://github.com/bushijie/ParallaxSwipeBack "代码非常少，都在这里ParallaxSwipeBack")
+[ParallaxSwipeBackActivity](https://github.com/bushijie/ParallaxSwipeBack/blob/master/app/src/main/java/com/bureak/parallaxswipeback/ParallaxSwipeBackActivity.java)
 Thinks
 -----
 [http://blog.csdn.net/hanhailong726188/article/details/46433229](http://blog.csdn.net/hanhailong726188/article/details/46433229)
