@@ -30,6 +30,12 @@ Very little code, are all here
 代码非常少，都在这里
 
 [ParallaxSwipeBackActivity](https://github.com/bushijie/ParallaxSwipeBack/blob/master/app/src/main/java/com/bureak/parallaxswipeback/ParallaxSwipeBackActivity.java)
+
+解决侧滑与ViewPager滑动冲突
+-----
+
+
 Thinks
 -----
+
 [http://blog.csdn.net/hanhailong726188/article/details/46433229](http://blog.csdn.net/hanhailong726188/article/details/46433229)
