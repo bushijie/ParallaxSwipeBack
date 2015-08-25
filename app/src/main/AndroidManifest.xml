@@ -20,6 +20,9 @@
         <activity
             android:name=".NextActivity"
             android:theme="@style/AppTranslucentTheme" />
+        <activity
+            android:name=".ViewPagerActivity"
+            android:theme="@style/AppTranslucentTheme" />
     </application>
 
 </manifest>

@@ -9,7 +9,6 @@ import android.os.Bundle;
 import android.support.v4.widget.SlidingPaneLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
-import android.view.Gravity;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.FrameLayout;
@@ -30,7 +29,7 @@ public class ParallaxSwipeBackActivity extends AppCompatActivity implements Slid
     private final static String TAG = ParallaxSwipeBackActivity.class.getSimpleName();
     private final static String WINDOWBITMAP = "screenshots.jpg";
     private File mFileTemp;
-    private SlidingPaneLayout slidingPaneLayout;
+    private PagerEnabledSlidingPaneLayout slidingPaneLayout;
     private FrameLayout frameLayout;
     private ImageView behindImageView;
     private ImageView shadowImageView;
@@ -41,7 +40,7 @@ public class ParallaxSwipeBackActivity extends AppCompatActivity implements Slid
     protected void onCreate(Bundle savedInstanceState) {
         //通过反射来改变SlidingPanelayout的值
         try {
-            slidingPaneLayout = new SlidingPaneLayout(this);
+            slidingPaneLayout = new PagerEnabledSlidingPaneLayout(this);
             Field f_overHang = SlidingPaneLayout.class.getDeclaredField("mOverhangSize");
             f_overHang.setAccessible(true);
             f_overHang.set(slidingPaneLayout, 0);
