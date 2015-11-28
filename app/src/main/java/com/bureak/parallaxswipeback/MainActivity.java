@@ -3,6 +3,7 @@ package com.bureak.parallaxswipeback;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -25,6 +26,9 @@ public class MainActivity extends ParallaxSwipeBackActivity {
                 Intent intent = new Intent(MainActivity.this,NextActivity.class);
                 intent.putExtra("index",0);
                 startParallaxSwipeBackActivty(MainActivity.this, intent);
+                Log.e("TAG", "just a log");
+                Log.e("TAG", "why7");
+                Log.e("TAG","thress");
             }
         });
 
