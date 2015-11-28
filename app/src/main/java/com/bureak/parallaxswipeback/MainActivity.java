@@ -26,7 +26,7 @@ public class MainActivity extends ParallaxSwipeBackActivity {
                 Intent intent = new Intent(MainActivity.this,NextActivity.class);
                 intent.putExtra("index",0);
                 startParallaxSwipeBackActivty(MainActivity.this, intent);
-                Log.e("TAG","this is test");
+                Log.e("TAG","just a log");
             }
         });
 
